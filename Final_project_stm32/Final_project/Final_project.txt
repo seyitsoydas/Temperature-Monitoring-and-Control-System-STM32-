@@ -1,0 +1,84 @@
+Configuration	Final_project
+STM32CubeMX 	6.13.0
+Date	01/14/2025
+MCU	STM32F446ZETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN3	ADC1_IN3	PA3
+ADC1	IN10	ADC1_IN10	PC0
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM3	PWM Generation CH2	TIM3_CH2	PA7
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+26	PC0	GPIO_Analog ADC1_IN10	
+37	PA3	ADC1_IN3	
+41	PA5	GPIO_Output	
+42	PA6	GPIO_Output	
+43	PA7	TIM3_CH2	
+50	PF12	GPIO_Output	
+53	PF13	GPIO_Output	
+54	PF14	GPIO_Output	
+55	PF15	GPIO_Output	
+60	PE9	GPIO_Output	
+64	PE11	GPIO_Output	
+66	PE13	GPIO_Output	
+85	PD14	GPIO_Input	
+86	PD15	GPIO_Output	
+129	PG14	GPIO_Output	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN3	ADC1_IN3	PA3
+ADC1	IN10	ADC1_IN10	PC0
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+TIM3	PWM Generation CH2	TIM3_CH2	PA7
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+26	PC0	GPIO_Analog ADC1_IN10	
+37	PA3	ADC1_IN3	
+41	PA5	GPIO_Output	
+42	PA6	GPIO_Output	
+43	PA7	TIM3_CH2	
+50	PF12	GPIO_Output	
+53	PF13	GPIO_Output	
+54	PF14	GPIO_Output	
+55	PF15	GPIO_Output	
+60	PE9	GPIO_Output	
+64	PE11	GPIO_Output	
+66	PE13	GPIO_Output	
+85	PD14	GPIO_Input	
+86	PD15	GPIO_Output	
+129	PG14	GPIO_Output	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Final_project
+Project Folder : C:\Users\yasin\STM32CubeIDE\workspace_1.17.0\Final_project
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.28.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
