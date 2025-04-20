@@ -1,5 +1,5 @@
 
-# Final Project: STM32 Performance Prediction and Circuit Design
+# Final Project: Temperature Monitoring and Control System 
 
 This project combines STM32CubeIDE software for microcontroller configuration with a Fritzing circuit diagram for hardware visualization. The goal is to showcase how the STM32F446ZETx microcontroller can be used for various peripherals such as ADC, PWM, and GPIO operations. This project also includes a visual circuit design using Fritzing, which helps to understand the wiring and connections in the hardware setup.
 
